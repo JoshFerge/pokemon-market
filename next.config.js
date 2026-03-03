@@ -13,8 +13,8 @@ module.exports = withSentryConfig(nextConfig, {
   // Suppresses source map uploading logs during build
   silent: false,
 
-  org: "sentry-test",
-  project: "pokemart",
+  org: "joshy-jferg-eu",
+  project: "pokemart-nextjs",
 
   // For all available options, see:
   // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/

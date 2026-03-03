@@ -12,11 +12,11 @@ const keys = {
     dsn: "https://9b88555f533ab26d4dfbd4eb52514484@o19635.ingest.sentry.io/4506072436572160",
     settings: "https://sentry-test.sentry.io/settings/projects/pokemart/keys/",
   },
-  ["joshferge/pokemon-market"]: {
+  ["joshy-jferg-eu/pokemart-nextjs"]: {
     dsn: "https://efdea6790c7ecbbbb54c94a1aa076fee@o4507097847693312.ingest.de.sentry.io/4510980542365776",
   },
 };
 
 // Remember to update next.config.js to match the selected org & project
 // And clear `.sentryclirc` of tokens from other orgs.
-export default keys["joshferge/pokemon-market"].dsn;
+export default keys["joshy-jferg-eu/pokemart-nextjs"].dsn;
